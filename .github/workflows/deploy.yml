@@ -32,7 +32,3 @@ jobs:
 
       - name: Run tests
         run: mvn test
-
-     
-            -Dsonar.host.url=https://sonarcloud.io
-            -Dsonar.login=${{ secrets.SONAR_TOKEN }}
